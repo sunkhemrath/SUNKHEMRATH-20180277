@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="918.0" prefWidth="1314.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutY="-6.0" prefHeight="113.0" prefWidth="1314.0">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="14.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Desktop/AIMS01.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#5577dd" layoutX="62.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CART">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutY="75.0" prefHeight="842.0" prefWidth="1314.0">
+         <children>
+            <Pane layoutX="7.0" layoutY="4.0" prefHeight="832.0" prefWidth="922.0" style="-fx-border-color: #adadad;">
+               <children>
+                  <ImageView fitHeight="133.0" fitWidth="100.0" layoutX="39.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Pictures/img_netflix/comedy/sxrZbrMopVPyiepv7tQDrW0osiy.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#6f57e8" layoutX="186.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book3">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="186.0" layoutY="100.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="118.0" text="Delete" textFill="#d31616">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Text fill="#1345c3" layoutX="707.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="485đ VND" wrappingWidth="40.78434473276138">
+                     <font>
+                        <Font name="Bodoni MT" size="18.0" />
+                     </font>
+                  </Text>
+                  <Spinner layoutX="769.0" layoutY="85.0" prefHeight="31.0" prefWidth="124.0" />
+                  <Text layoutX="777.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" />
+               </children>
+            </Pane>
+            <Text layoutX="967.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subtotal:">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="970.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#1345c3" layoutX="1066.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.454đ" wrappingWidth="50.06250482797623">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="#d70f0f" layoutX="1232.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VAT 10%" wrappingWidth="50.06250482797623">
+               <font>
+                  <Font name="Bodoni MT" size="11.0" />
+               </font>
+            </Text>
+            <Button layoutX="955.0" layoutY="327.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="340.0" style="-fx-background-color: #ff003f;" text="Place order" textFill="#f8f6f6">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Text fill="#1345c3" layoutX="1066.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.454đ" wrappingWidth="50.06250482797623">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="1061.0" layoutY="814.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EANG SOKUNTHEA" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
+

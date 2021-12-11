@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="753.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="345.0" layoutY="134.0" prefHeight="45.0" prefWidth="576.0" />
+      <Text fill="#6e9fe4" layoutX="57.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SHIPPING">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="38.0" fitWidth="36.0" layoutX="14.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/1.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="345.0" layoutY="196.0" prefHeight="45.0" prefWidth="576.0" />
+      <TextArea layoutX="345.0" layoutY="420.0" prefHeight="152.0" prefWidth="576.0" />
+      <TextArea layoutX="345.0" layoutY="323.0" prefHeight="80.0" prefWidth="576.0" />
+      <MenuButton layoutX="345.0" layoutY="258.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="169.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Text layoutX="214.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="212.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="212.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Province/City">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="215.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="215.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shipping Instructions" wrappingWidth="103.77734375">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="453.0" layoutY="619.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="346.0" style="-fx-background-color: #ff003f;" text="Confirm delivery" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Text layoutX="893.0" layoutY="720.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EANG SOKUNTHEA" />
+   </children>
+</Pane>
